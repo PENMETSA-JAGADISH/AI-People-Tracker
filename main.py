@@ -3,7 +3,7 @@ from ultralytics import YOLO
 
 model = YOLO('yolov8n.pt')
 
-cap = cv2.VideoCapture("videoplayback.mp4")
+cap = cv2.VideoCapture(0)
 
 entry_line_y = 200 
 exit_line_y = 300 
